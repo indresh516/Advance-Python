@@ -1,0 +1,36 @@
+# Step 1 : import tkinter
+from tkinter import *
+
+
+# step 2 : GUI interection
+window = Tk()
+
+
+# step 3 : Adding inputs
+window.title("isit")
+window.geometry("400x300")
+
+label1 = Label(window, text="mail")
+label2= Label(window, text="Password")
+
+def logentry(e1,e2):
+    sum = e1+e2
+    print("Sum = ", sum)
+
+e1 = Entry(window, width=40,borderwidth=2)
+e2 = Entry(window, width=40,borderwidth=2)
+
+button = Button(window, text="Login", width=12, bg="red",fg="white", font=("bold",12), activebackground="#00BFFF",activeforeground="black", command=logentry)
+
+
+label1.grid(row=0,column=1)
+label2.grid(row=1,column=1)
+e1.grid(row=0, column=2)
+e2.grid(row=1, column=2)
+button.pack()
+
+
+
+
+# Step 4:Main loop
+window.mainloop()
