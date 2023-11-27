@@ -8,29 +8,29 @@ window.geometry("500x500")
 
 
 # step 3 : Adding input
-'''message = Message(window,text="python")
+message = Message(window,text="python", relief=RAISED)
 message.pack()
-'''
+
 # passing variable
-'''var = StringVar()
+var = StringVar()
 message = Message(window, textvariable=var, relief=RAISED, padx=20, pady=20)
 var.set("Welcome")
-message.pack()'''
+message.pack()
 
 #creating a button and adding it to the window
-var = StringVar()
+'''var = StringVar()
 ent_var= StringVar()
 def insert():
     result = ent_var.get()
     var.set(result)
 
 
-message = Message(window, textvariable=var, relief=RAISED, padx=50,pady=50)
+message = Message(window, textvariable=var, relief=RAISED,padx=50,pady=50)
 entry = Entry(window, textvariable=ent_var)
 button = Button(window, text="OK", command=insert)
 message.pack()
 entry.pack()
-button.pack()
+button.pack()'''
 
 
 # Step 4:Main loop
