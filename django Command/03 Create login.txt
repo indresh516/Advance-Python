@@ -1,0 +1,13 @@
+create login
+
+
+create project using command django-admin startproject login
+connect login
+under login create app python manage.py startapp account
+open pycharm open project login
+
+go setting.py file and add your app 'account'
+create a new directory under accounts named tampletes
+create new html file
+create new director under templetes named registration
+create html file register

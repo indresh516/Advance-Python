@@ -1,0 +1,24 @@
+First Hello world application
+
+step 1 : Open View.py and add django http response library
+step 2 : create functions in view.py file
+step 3 : open settings.py file under the installed apps add your app
+step 4 : open url.py file and set the url
+step 5 : import hello function
+
+
+
+
+create login
+
+
+create project using command django-admin startproject login
+connect login
+under login create app python manage.py startapp account
+open pycharm open project login
+
+go setting.py file and add your app 'account'
+create a new directory under accounts named tampletes
+create new html file
+create new director under templetes named registration
+create html file register

@@ -1,0 +1,20 @@
+create project
+django-admin startproject demo
+
+start project
+python manage.py runserver # sql database aren't available 
+
+fix migrate
+python manage.py migrate
+
+
+create app
+python manage.py startapp testapp
+
+create login
+python manage.py createsuperuser
+
+run server
+python manage.py runerver
+
+
