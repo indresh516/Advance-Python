@@ -1,0 +1,57 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    background-color: black;
+}
+.heading{
+    color: rgb(20, 188, 255);
+    text-align: center;
+    font-size: 50px;
+    background-color: yellow;
+}
+#container{
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 0, 255);
+    font-size: 100px;
+}
+p.center{
+    color: rgb(208, 255, 0);
+    font-size: 40px;
+    background-color: brown;
+}
+div.mix {
+    border-left:solid 10px darkblue;
+    background-color:lightblue; 
+    font-size:20px;
+    height:50px;
+    width: 400px;
+    text-align:left;
+    padding-top: 30px;
+}
+div.container-l1{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(255, 255, 29);
+    height: 600px;
+    font-size: 20px;
+    border: 5px solid black;
+    outline:5px solid red;
+    border-radius: 25px;
+    outline-offset: 3px;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 20px;
+}
+div.container-l2{
+    display:flex;
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(255, 29, 195);
+    height: 30%;
+    font-size: 20px;
+    border: 5px double black;
+}
